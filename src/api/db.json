@@ -11,6 +11,18 @@
       "height": 1.7,
       "weight": 1.7,
       "category": "paciente"
+    },
+    {
+      "name": "Juan",
+      "lastname": "Lopez",
+      "age": 25,
+      "curp": "sadsfsda",
+      "address": "solo la calle",
+      "phone": 12345655,
+      "email": "example@gmail.com",
+      "height": 1.7,
+      "weight": 1.7,
+      "category": "paciente"
     }
   ]
 }

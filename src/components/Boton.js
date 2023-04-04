@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Boton = () => {
+const Boton = ({nom, estado, click}) => {
   return (
-    <div>Boton</div>
+    <div>
+    <label>Cantidad de clics: {click}</label>
+    <button onClick={estado}>{nom}</button>
+    </div>
   )
 }
 

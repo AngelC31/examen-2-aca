@@ -1,7 +1,9 @@
 import React from "react";
 
+
 const ListaPaciente = () => {
   
+  let url='http://localhost:5000/users'
   return (
     <table className="table container mt-3">
       <thead>
@@ -32,7 +34,7 @@ const ListaPaciente = () => {
           <td >Dato6</td>
           <td >Dato7</td>
           <td >Dato8</td>
-		<td>Editar Eliminar</td>
+		<td><button>Agregar</button><button>Eliminar</button></td>
         </tr>
 
       </tbody>

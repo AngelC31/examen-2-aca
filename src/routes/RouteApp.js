@@ -2,8 +2,7 @@ import React from 'react'
 
 const RouteApp = () => {
   return (
-    <div> Rutas
-              </>
+    <div>H</div>
     
   )
 }
